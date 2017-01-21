@@ -28,7 +28,7 @@ class App extends Component {
                 <SearchBar />
                 <div className="col-md-8">
                 </div>
-                <VideoList />
+                <VideoList videos={ this.state.videos } />
             </div> 
         );
     }
